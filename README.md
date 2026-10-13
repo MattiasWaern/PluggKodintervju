@@ -1,2 +1,0 @@
-# PluggKodintervju
-Pluggar inför kodintervjuer
