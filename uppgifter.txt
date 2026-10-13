@@ -1,0 +1,129 @@
+1. Filtrera produkter
+
+Du får en lista med produkter. Returnera endast de produkter som kostar mindre än 500 kr.
+const products = [
+  { name: "Mus", price: 299 },
+  { name: "Tangentbord", price: 799 },
+  { name: "Webbkamera", price: 449 },
+  { name: "Skärm", price: 2499 }
+];
+
+2. Räkna förekomster
+
+Du får en array med kategorier:
+const categories = [
+  "SEO", "Webb", "SEO", "Design", "Webb", "SEO"
+];
+
+
+Uppgift: Skriv en funktion som räknar hur många gånger varje kategori förekommer.
+Förväntat resultat:
+{
+  SEO: 3,
+  Webb: 2,
+  Design: 1
+}
+
+3. Hitta dubbletter
+
+const emails = [
+  "anna@mail.se",
+  "erik@mail.se",
+  "anna@mail.se",
+  "lisa@mail.se",
+  "erik@mail.se"
+];
+
+4. Validera ett kontaktformulär
+
+En kund ska kunna kontakta en webbyrå genom ett formulär.
+function validateContactForm(form) {
+  // Din kod här
+}
+
+const form = {
+  name: "  ",
+  email: "mattiasmail.se",
+  message: "Hej"
+};
+
+5. Hämta kundprojekt från ett API
+
+Anta att följande endpoint finns: GET /api/projects.
+Den returnerar:
+[
+  { "id": 1, "name": "Hemsida", "status": "active" },
+  { "id": 2, "name": "Webbshop", "status": "done" },
+  { "id": 3, "name": "Kampanjsida", "status": "active" }
+]
+
+6. Sortera kundcase
+15 min
+
+const projects = [
+  { name: "Webbshop", year: 2024 },
+  { name: "Portfolio", year: 2026 },
+  { name: "Kampanjsida", year: 2025 }
+];
+
+7. Bygg en sökfunktion i React
+
+Du har följande lista:
+type Service = {
+  id: number;
+  name: string;
+  description: string;
+};
+
+const services: Service[] = [
+  { id: 1, name: "SEO", description: "Bättre synlighet" },
+  { id: 2, name: "Webbdesign", description: "Moderna hemsidor" },
+  { id: 3, name: "Google Ads", description: "Digital annonsering" }
+];
+
+8. Felsök en React-komponent
+
+Någon har skrivit följande komponent:
+import { useState } from "react";
+
+export function Counter() {
+  const [count, setCount] = useState(0);
+
+  function increment() {
+    count = count + 1;
+    setCount(count);
+  }
+
+  return (
+    <div>
+      <p>{count}</p>
+      <button onClick={increment}>
+        Öka
+      </button>
+    </div>
+  );
+}
+
+9. Skapa en återanvändbar TypeScript-funktion
+
+Du får en lista med objekt av olika typer.
+Uppgift: Skriv en generisk funktion getById som tar en array av objekt och ett ID och returnerar objektet med det ID:t, eller undefined om det inte finns.
+Exempel:
+const users = [
+  { id: 1, name: "Anna" },
+  { id: 2, name: "Erik" }
+];
+
+getById(users, 2);
+// { id: 2, name: "Erik" }
+
+
+10. Bygg ett litet REST-API
+
+Skapa en Express-route för kundprojekt.
+Ett projekt har följande struktur:
+type Project = {
+  id: number;
+  name: string;
+  status: "active" | "done";
+};
