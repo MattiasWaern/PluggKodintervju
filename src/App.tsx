@@ -6,9 +6,17 @@ const products = [
 ];
 
 
+
 function App() {
+
+const prices = products.map((products => (products.price)));
+const filteredPrices =  prices.filter(price => price > 500)
   
-console.log('Detta e app')
+
+
+
+
+console.log(filteredPrices);
 
 }
 
