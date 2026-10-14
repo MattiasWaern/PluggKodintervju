@@ -81,7 +81,7 @@ const services: Service[] = [
   { id: 3, name: "Google Ads", description: "Digital annonsering" }
 ];
 
-8. Felsök en React-komponent
+8. Felsök en React-komponent KLAR
 
 Någon har skrivit följande komponent:
 import { useState } from "react";
