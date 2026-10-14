@@ -1,4 +1,4 @@
-1. Filtrera produkter
+1. Filtrera produkter KLAR
 
 Du får en lista med produkter. Returnera endast de produkter som kostar mindre än 500 kr.
 const products = [
@@ -8,7 +8,7 @@ const products = [
   { name: "Skärm", price: 2499 }
 ];
 
-2. Räkna förekomster
+2. Räkna förekomster KLAR
 
 Du får en array med kategorier:
 const categories = [
@@ -24,7 +24,7 @@ Förväntat resultat:
   Design: 1
 }
 
-3. Hitta dubbletter
+3. Hitta dubbletter KLAR
 
 const emails = [
   "anna@mail.se",
