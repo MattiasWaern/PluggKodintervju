@@ -1,19 +1,20 @@
-import { useState } from "react";
+const projects = [
+  { "id": 1, "name": "Hemsida", "status": "active" },
+  { "id": 2, "name": "Webbshop", "status": "done" },
+  { "id": 3, "name": "Kampanjsida", "status": "active" }
+]
 
-export function Counter() {
-  let [count, setCount] = useState(0);
 
-  function increment() {
-    count = count + 1;
-    setCount(count);
-  }
 
-  return (
-    <div>
-      <p>{count}</p>
-      <button onClick={increment}>
-        Öka
-      </button>
-    </div>
-  );
+export  function projectStatus(){
+ const status = projects.map((projects => (projects.id + projects.name + projects.status)));
+ const activeProjects = projects.filter((projects => projects.status === "active"))
+ console.log(status)
+ console.log('Active projects:', activeProjects );
+
+
+ 
 }
+
+
+export default projectStatus;
