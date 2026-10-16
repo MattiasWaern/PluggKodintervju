@@ -15,9 +15,11 @@ export  function projectStatus(){
 
  
 
- const sortedProjects = projects.sort((a, b) => b.id - a.id)
+ const sortedProjects = projects.sort((a, b) => b.id - a.id) 
+ const test = projects.sort();
 
- console.log(sortedProjects);
+ console.log("sortering med id reverse",sortedProjects);
+  console.log("bokstavsordning",test);
 }
 
 
