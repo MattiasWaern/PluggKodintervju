@@ -47,7 +47,7 @@ const form = {
   message: "Hej"
 };
 
-5. Hämta kundprojekt från ett API
+5. Hämta kundprojekt från ett API KLAR
 
 Anta att följande endpoint finns: GET /api/projects.
 Den returnerar:

@@ -14,6 +14,10 @@ export  function projectStatus(){
 
 
  
+
+ const sortedProjects = projects.sort((a, b) => b.id - a.id)
+
+ console.log(sortedProjects);
 }
 
 
