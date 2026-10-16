@@ -19,7 +19,7 @@ export  function projectStatus(){
  const test = projects.sort();
 
  console.log("sortering med id reverse",sortedProjects);
-  console.log("bokstavsordning",test);
+  console.log("",test);
 }
 
 
