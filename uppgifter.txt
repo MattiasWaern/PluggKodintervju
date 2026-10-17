@@ -59,7 +59,7 @@ Den returnerar:
 
 Uppgift: Skriv en asynkron funktion som hämtar projekten och returnerar endast de aktiva projekten.
 
-6. Sortera kundcase
+6. Sortera kundcase KLAR
 15 min
 
 const projects = [
