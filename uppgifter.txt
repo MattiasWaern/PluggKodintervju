@@ -34,7 +34,7 @@ const emails = [
   "erik@mail.se"
 ];
 
-4. Validera ett kontaktformulär
+4. Validera ett kontaktformulär KLAR
 
 En kund ska kunna kontakta en webbyrå genom ett formulär.
 function validateContactForm(form) {
